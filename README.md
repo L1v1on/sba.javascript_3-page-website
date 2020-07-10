@@ -7,3 +7,5 @@
 The 3 web pages are built and styled using HTML and CSS. The interactions I have on the pages are done through events and defined in JavaScript.
 
 * This is the link to my github account: https://github.com/L1v1on
+
+* This is the link to the web page hosted on github pages: https://l1v1on.github.io/sba.javascript_3-page-website/
