@@ -6,12 +6,12 @@ var loop = true;
 
 function myQuestion(){
     var pageOn = document.getElementById("title");
-    console.log(pageOn.textContent);
+    //console.log(pageOn.textContent);
 
     do{
         if(pageOn.textContent === "Dreamcast Page"){
             ans = prompt(question[0]);
-            console.log(ans);
+            //console.log(ans);
             if(ans === "2001"){
                 loop = false;
             }
@@ -26,7 +26,7 @@ function myQuestion(){
                 loop = false;
             }
         }
-        console.log(ans);
-        console.log(loop);
+        //console.log(ans);
+        //console.log(loop);
     }while(loop);
 }
