@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 
-p {
+p, nav{
     font-family: 'Roboto', sans-serif;
 }
 
