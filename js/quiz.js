@@ -1,6 +1,6 @@
 
-var question = ["What year did the dream die?", "What year did the behemonth appear?",
-"Is the gamecube cool?"];
+var question = ["What year did the dream die? Pro tip - look at the page.", "What year did the behemonth appear? Pro tip - look at the page.",
+"Is the gamecube cool? Pro tip - YES"];
 var ans;
 var loop = true;
 
