@@ -1,7 +1,11 @@
-var bootButton = document.getElementById("boot");
-bootButton.addEventListener('click', playBoot(document.title));
+//console.log(document.getElementsByTagName("button"));
+console.log(document.getElementById("boot"));
 
-console.log(document.title); //test to see what title value is
+var bootButton = document.getElementById("boot");
+var page = document.title;
+bootButton.addEventListener("click", playBoot(page));
+
+console.log(page); //test to see what title value is
 
 function playBoot(page){
     if (page === "Dreamcast Page"){
