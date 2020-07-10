@@ -14,16 +14,25 @@ function myQuestion(){
             //console.log(ans);
             if(ans === "2001"){
                 loop = false;
+                alert("Good Job!!!");
+            }else{
+                alert("WRONG!!!");
             }
         }else if(pageOn.textContent === "Playstation 2 Page"){
             ans = prompt(question[1]);
             if(ans === "2000"){
                 loop = false;
+                alert("Good Job!!!");
+            }else{
+                alert("WRONG!!!");
             }
         }else{
             ans = prompt(question[2]);
             if(ans.toLocaleLowerCase() === "yes"){
                 loop = false;
+                alert("Good Job!!!");
+            }else{
+                alert("WRONG!!!");
             }
         }
         //console.log(ans);
