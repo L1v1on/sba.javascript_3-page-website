@@ -15,7 +15,7 @@ function myQuestion(){
             if(ans === "2001"){
                 loop = false;
             }
-        }else if(pageOn === "Playstation 2 Page"){
+        }else if(pageOn.textContent === "Playstation 2 Page"){
             ans = prompt(question[1]);
             if(ans === "2000"){
                 loop = false;
